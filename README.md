@@ -15,6 +15,11 @@ email = "some@email.address" #Enter username of linkedin account here
 password = "SOMEPASSWORD" #Enter password of linkedin account here
 ```
 
+Enter user profile url in the following code
+```
+person = Person("https://www.linkedin.com/in/someprofile", driver=driver) #Enter LinkedIn profile url of user
+```
+
 ## Requirements
 1. [Chromedriver](https://sites.google.com/a/chromium.org/chromedriver/downloads)
 2. Selenium
